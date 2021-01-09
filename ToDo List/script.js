@@ -23,7 +23,6 @@ addButton.addEventListener('click', function() {
   localStorage.setItem('todo', JSON.stringify(todoList));
   addMessage.value = ''
 });
-
 function displayMessages() {
   let displayMessage = '';
   if(todoList.length == 0) todo.innerHTML = '';
